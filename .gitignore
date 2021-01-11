@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/cplusplus-training-app/.vs/cplusplus-training-app/v16
+/cplusplus-training-app/cplusplus-training/cplusplus-training.vcxproj
+/cplusplus-training-app/cplusplus-training/cplusplus-training.vcxproj.filters
+/cplusplus-training-app/cplusplus-training/cplusplus-training.vcxproj.user
