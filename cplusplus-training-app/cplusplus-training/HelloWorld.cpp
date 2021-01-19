@@ -5,7 +5,7 @@
 
 int main()
 {
-    int test{ 5 }; // List-initializion
+    // int test{ 5 }; // List-initializion
     std::cout << "Hello World!";
     return 0;
 }

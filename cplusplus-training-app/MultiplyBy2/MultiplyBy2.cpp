@@ -5,7 +5,14 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Enter an integer: ";
+
+    int num{ 0 };
+    std::cin >> num;
+
+    std::cout << "Double that number is: " << num * 2 << '\n';
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
