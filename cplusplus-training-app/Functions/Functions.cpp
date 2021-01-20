@@ -4,6 +4,7 @@
 #include <iostream>
 
 void printDouble(int value); // forward declaration of printDouble() using function prototype
+int add(int x, int y);
 
 int getValueFromUser() 
 {
@@ -18,6 +19,8 @@ int main()
 	int num{ getValueFromUser() }; // initialize variable with value provided by user through getValueFromUser()
 	
 	printDouble(num); // call the printDouble() and pass by value num as argument
+
+	std::cout << "output of add() is: " << add(2, 3) << '\n';
 
 	return 0;
 }
