@@ -3,17 +3,14 @@
 
 #include <iostream>
 
+void printDouble(int value); // forward declaration of printDouble() using function prototype
+
 int getValueFromUser() 
 {
 	std::cout << "Enter an integer: ";
 	int userInput{};
 	std::cin >> userInput;
 	return userInput;
-}
-
-void printDouble(int value)
-{
-	std::cout << "The number " << value << " doubled is: " << value * 2 << '\n';
 }
 
 int main()
@@ -25,6 +22,10 @@ int main()
 	return 0;
 }
 
+void printDouble(int value)
+{
+	std::cout << "The number " << value << " doubled is: " << value * 2 << '\n';
+}
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
