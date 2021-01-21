@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Func
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{9D89B541-A81F-445A-9A1F-296B0F170E64}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vectors", "Vectors\Vectors.vcxproj", "{0E229595-15E8-4E24-9A4F-20B6F0119981}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{9D89B541-A81F-445A-9A1F-296B0F170E64}.Release|x64.Build.0 = Release|x64
 		{9D89B541-A81F-445A-9A1F-296B0F170E64}.Release|x86.ActiveCfg = Release|Win32
 		{9D89B541-A81F-445A-9A1F-296B0F170E64}.Release|x86.Build.0 = Release|Win32
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Debug|x64.ActiveCfg = Debug|x64
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Debug|x64.Build.0 = Debug|x64
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Debug|x86.Build.0 = Debug|Win32
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Release|x64.ActiveCfg = Release|x64
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Release|x64.Build.0 = Release|x64
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Release|x86.ActiveCfg = Release|Win32
+		{0E229595-15E8-4E24-9A4F-20B6F0119981}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
