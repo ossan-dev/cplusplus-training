@@ -1,12 +1,12 @@
-// Functions.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
+#include "Add.h" // inserts content of Add.h at this point
+// this is the order to include header files: user-defined, third-party and system
 #include <iostream>
 
 #define PRINT_JOE // object-like macro without text substitution
 
 void printDouble(int value); // forward declaration of printDouble() using function prototype
-int add(int x, int y);
+//int add(int x, int y);
 
 int getValueFromUser() 
 {
@@ -40,13 +40,3 @@ void printDouble(int value)
 {
 	std::cout << "The number " << value << " doubled is: " << value * 2 << '\n';
 }
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
