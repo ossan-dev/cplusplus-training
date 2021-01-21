@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#define PRINT_JOE // object-like macro without text substitution
+
 void printDouble(int value); // forward declaration of printDouble() using function prototype
 int add(int x, int y);
 
@@ -21,6 +23,15 @@ int main()
 	printDouble(num); // call the printDouble() and pass by value num as argument
 
 	std::cout << "output of add() is: " << add(2, 3) << '\n';
+
+#ifdef PRINT_JOE
+	std::cout << "variable PRINT_JOE #defined\n";
+#endif
+
+#ifndef PRINT_BOB
+	std::cout << "variable PRINT_BOB not #defined\n";
+#endif // !PRINT_BOB
+
 
 	return 0;
 }
