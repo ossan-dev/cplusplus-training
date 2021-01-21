@@ -1,3 +1,5 @@
+#include "Square.h"
+#include "Geometry.h"
 
 #include "Add.h" // inserts content of Add.h at this point
 // this is the order to include header files: user-defined, third-party and system
