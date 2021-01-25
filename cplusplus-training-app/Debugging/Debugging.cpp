@@ -3,9 +3,17 @@
 
 #include <iostream>
 
+int getValue()
+{
+std::cerr << "getValue() called\n"; // line not indented in order to spot it easily when we must remove it
+    return 4;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+std::cerr << "main() called\n";
+    std::cout << getValue();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
