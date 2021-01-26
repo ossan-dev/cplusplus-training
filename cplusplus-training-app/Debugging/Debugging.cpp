@@ -3,16 +3,27 @@
 
 #include <iostream>
 
-int getValue()
+void printValue(int value)
 {
-std::cerr << "getValue() called\n"; // line not indented in order to spot it easily when we must remove it
-    return 4;
+//std::cerr << "getValue() called\n"; // line not indented in order to spot it easily when we must remove it
+    std::cout << value << '\n';
 }
 
 int main()
 {
-std::cerr << "main() called\n";
-    std::cout << getValue();
+//std::cerr << "main() called\n";
+    /*printValue(5);
+    printValue(6);
+    printValue(7);*/
+
+    int x{ 1 };
+    std::cout << x << '\n';
+
+    x = x + 2;
+    std::cout << x << '\n';
+
+    x = x + 3;
+    std::cout << x << '\n';
     return 0;
 }
 
