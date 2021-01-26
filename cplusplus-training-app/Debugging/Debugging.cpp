@@ -9,6 +9,17 @@ void printValue(int value)
     std::cout << value << '\n';
 }
 
+void a()
+{
+    std::cout << "a() called\n";
+}
+
+void b()
+{
+    std::cout << "b() called\n";
+    a();
+}
+
 int main()
 {
 //std::cerr << "main() called\n";
@@ -16,14 +27,18 @@ int main()
     printValue(6);
     printValue(7);*/
 
-    int x{ 1 };
+    /*int x{ 1 };
     std::cout << x << '\n';
 
     x = x + 2;
     std::cout << x << '\n';
 
     x = x + 3;
-    std::cout << x << '\n';
+    std::cout << x << '\n';*/
+
+    a();
+    b();
+
     return 0;
 }
 
