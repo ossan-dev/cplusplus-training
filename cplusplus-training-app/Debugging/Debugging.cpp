@@ -20,6 +20,20 @@ void b()
     a();
 }
 
+int add(int x, int y)
+{
+    return x + y;
+}
+
+void testadd()
+{
+    std::cout << "This function should return: 2 0 0 -2\n";
+    std::cout << add(1, 1) << ' ';
+    std::cout << add(-1, 1) << ' ';
+    std::cout << add(1, -1) << ' ';
+    std::cout << add(-1, -1) << ' ';
+}
+
 int main()
 {
 //std::cerr << "main() called\n";
@@ -36,8 +50,10 @@ int main()
     x = x + 3;
     std::cout << x << '\n';*/
 
-    a();
-    b();
+    /*a();
+    b();*/
+    
+    testadd();
 
     return 0;
 }
